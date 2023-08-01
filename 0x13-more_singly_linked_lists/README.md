@@ -1,1 +1,1 @@
-0x13. C - More singly linked lists
+The tasks for the 0x13. C  More singly linked lists project
