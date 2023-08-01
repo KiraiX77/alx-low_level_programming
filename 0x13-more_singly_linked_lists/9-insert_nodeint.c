@@ -1,14 +1,14 @@
 #include "lists.h"
 
 /**
-* insert_nodeint_at_index - inside the given index this inserts new node
-* @head: this is the adress of the pointer to first node
-* @idx: this is the index to insert a new node
-* @n: the n is the value of the new node
-*
-* Return: This is the adress of the new node
-*/
-listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
+ * insert_nodeint_at_index - what this does is inserts a new node in a linked list,
+ * at a given position
+ * @head: this is the pointer to the first node in the list
+ * @idx: this is the index where the new node is added
+ * @n: this is for the data to insert in the new node
+ *
+ * Return: the pointer to the new node, or NULL
+ */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
  unsigned int i;
@@ -42,10 +42,4 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
  }
 
  return (NULL);
-}
-else
-			temp = temp->next;
-	}
-
-	return (NULL);
 }
